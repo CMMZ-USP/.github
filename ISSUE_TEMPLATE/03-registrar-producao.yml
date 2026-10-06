@@ -1,0 +1,40 @@
+name: Registrar produção que usou o CMMZ
+description: Informe publicação, tese, dataset ou outro produto que utilizou o centro.
+title: "[Produção] "
+labels: ["producao"]
+body:
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de produto
+      options:
+        - Artigo
+        - Tese / dissertação / TCC
+        - Conjunto de dados
+        - Software / pipeline
+        - Apresentação em evento
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: referencia
+    attributes:
+      label: Referência completa (com DOI, se houver)
+    validations:
+      required: true
+  - type: input
+    id: grupo
+    attributes:
+      label: Grupo / laboratório e instituição
+    validations:
+      required: true
+  - type: input
+    id: amostras
+    attributes:
+      label: Número aproximado de amostras processadas no CMMZ
+  - type: checkboxes
+    id: agradecimento
+    attributes:
+      label: Agradecimentos
+      options:
+        - label: O trabalho cita o processo FAPESP 2022/11560-6 nos agradecimentos

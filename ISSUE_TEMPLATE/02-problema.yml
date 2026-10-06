@@ -1,0 +1,26 @@
+name: Relatar problema
+description: Erro em protocolo, script ou documentação.
+title: "[Problema] "
+labels: ["bug"]
+body:
+  - type: input
+    id: arquivo
+    attributes:
+      label: Arquivo / protocolo / script afetado
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o problema e o que esperava que acontecesse. Para scripts, inclua o comando e a mensagem de erro.
+    validations:
+      required: true
+  - type: textarea
+    id: ambiente
+    attributes:
+      label: Ambiente
+      description: Versão do protocolo/script, máquina usada (sem IPs ou nomes internos), versões de software.
+  - type: markdown
+    attributes:
+      value: "⚠️ **Não cole senhas, tokens, IPs internos ou nomes de usuários dos servidores.**"

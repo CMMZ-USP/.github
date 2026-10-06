@@ -1,0 +1,41 @@
+name: Propor novo protocolo
+description: Sugira a inclusão de um protocolo de bancada ou procedimento.
+title: "[Protocolo] "
+labels: ["protocolo", "proposta"]
+body:
+  - type: input
+    id: titulo
+    attributes:
+      label: Título do protocolo
+    validations:
+      required: true
+  - type: dropdown
+    id: etapa
+    attributes:
+      label: Etapa do fluxo
+      options:
+        - Amostragem / seleção de espécimes
+        - Extração de DNA
+        - Preparo de bibliotecas
+        - Captura / enriquecimento
+        - Sequenciamento
+        - Controle de contaminação / limpeza
+        - Outra
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição e justificativa
+      description: Para que serve, em quais materiais foi testado, de onde foi adaptado.
+    validations:
+      required: true
+  - type: input
+    id: autoria
+    attributes:
+      label: Autoria (nomes e ORCID)
+  - type: input
+    id: financiamento
+    attributes:
+      label: Financiamentos envolvidos
+      placeholder: "FAPESP 2022/11560-6; ..."
