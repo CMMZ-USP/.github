@@ -15,7 +15,7 @@ documentação da infraestrutura computacional (cluster, servidor e storage).
 |---|---|
 | [Protocolos](https://github.com/CMMZ-USP/Protocolos) | Protocolos de laboratório: extração de DNA histórico, preparo de bibliotecas, controles de contaminação |
 | [Normas-e-procedimentos](https://github.com/CMMZ-USP/Normas-e-procedimentos) | Regras de acesso e uso do centro, agendamento, biossegurança e salas limpas |
-| [pipelines-bioinfo](https://github.com/CMMZ-USP/pipelines-bioinfo) | Scripts e pipelines para processamento de DNA degradado |
+| [Bioinformatica](https://github.com/CMMZ-USP/Bioinformatica) | Scripts e pipelines para processamento de DNA degradado |
 | [template-cmmz](https://github.com/CMMZ-USP/template-cmmz) | Modelo para novos repositórios do centro |
 
 ## Como usar o centro
