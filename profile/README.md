@@ -6,24 +6,43 @@ científico das coleções de museus e acelerar a descoberta da biodiversidade
 por meio de técnicas de museômica.
 
 Esta organização reúne **todo o material produzido no contexto do CMMZ**:
-protocolos de bancada, normas de uso, pipelines e scripts de análise, e a
-documentação da infraestrutura computacional (cluster, servidor e storage).
+protocolos de bancada, normas e procedimentos de uso, pipelines e scripts de
+análise, e a documentação da infraestrutura computacional.
+
+Os repositórios são **privados por enquanto**: só membros da organização os veem.
 
 ## Repositórios
 
 | Repositório | Conteúdo |
 |---|---|
-| [Protocolos](https://github.com/CMMZ-USP/Protocolos) | Protocolos de laboratório: extração de DNA histórico, preparo de bibliotecas, controles de contaminação |
-| [Normas-e-procedimentos](https://github.com/CMMZ-USP/Normas-e-procedimentos) | Regras de acesso e uso do centro, agendamento, biossegurança e salas limpas |
-| [Bioinformatica](https://github.com/CMMZ-USP/Bioinformatica) | Scripts e pipelines para processamento de DNA degradado |
+| [normas-e-procedimentos](https://github.com/CMMZ-USP/normas-e-procedimentos) | **Comece por aqui.** Acesso ao centro, agenda, alíquotas de kit, início de placa, lanes e envio, dados, compras e inventário (PROC-01 a PROC-05), planilha de placa e checklist de bancada |
+| [protocolos](https://github.com/CMMZ-USP/protocolos) | Protocolos de bancada em Markdown, com PDF gerado automaticamente: extração de hDNA, QC (Qubit, gel, qPCR), sonicação de insetos, bibliotecas (QIAseq, NEBNext, KAPA + iTru), enriquecimento de UCEs |
+| [Bioinformatica](https://github.com/CMMZ-USP/Bioinformatica) | Acesso ao servidor do MZ e ao CENAPAD, pipelines e scripts para DNA degradado |
 | [template-cmmz](https://github.com/CMMZ-USP/template-cmmz) | Modelo para novos repositórios do centro |
 
 ## Como usar o centro
 
-O CMMZ é um **Equipamento Multiusuário (EMU)** aberto a pesquisadores de
-outras instituições. As regras de acesso estão em
-[Normas-e-procedimentos](https://github.com/CMMZ-USP/Normas-e-procedimentos).
-Contato: [PREENCHER e-mail do centro]
+1. **Solicite acesso** pelo formulário indicado em
+   [Uso multiusuário](https://github.com/CMMZ-USP/normas-e-procedimentos/blob/main/USO-MULTIUSUARIO.md).
+2. **As gestoras aprovam** a proposta e combinam os custos de insumos e
+   sequenciamento caso a caso.
+3. **Faça o treinamento** antes do primeiro uso. Depois dele você entra no
+   time *Usuários CMMZ* do GitHub e na agenda do laboratório.
+4. **Reserve** bancada e equipamentos na agenda Google do laboratório.
+5. **Solicite às gestoras a alíquota de kit** para cada placa. Kits,
+   alíquotas e estoque são manuseados só pelas gestoras; avise quando algo
+   estiver acabando.
+6. **Siga os procedimentos** (PROC-01 a PROC-04) e os protocolos do kit.
+7. **Informe a produção** (artigos, teses, dados) com a issue
+   "Registrar produção que usou o CMMZ" e cite o processo FAPESP.
+
+Gestoras: Gabriela P. Camacho ([PREENCHER e-mail]) e Joyce Prado ([PREENCHER e-mail]).
+
+## Como contribuir
+
+Nunca edite direto na `main`: crie um branch, abra um *pull request* e peça
+revisão às gestoras. Veja [CONTRIBUTING.md](https://github.com/CMMZ-USP/.github/blob/main/CONTRIBUTING.md).
+Nos protocolos, edite só o `.md`; o PDF é gerado pela automação.
 
 ## Financiamento
 
@@ -34,9 +53,6 @@ Contato: [PREENCHER e-mail do centro]
 Registro completo de financiamentos e da produção associada:
 [FINANCIAMENTO.md](https://github.com/CMMZ-USP/.github/blob/main/FINANCIAMENTO.md) ·
 [PRODUCAO.md](https://github.com/CMMZ-USP/.github/blob/main/PRODUCAO.md)
-
-Todos os produtos financiados pelo processo EMU podem ser listados pela busca
-[`topic:fapesp-2022-11560-6`](https://github.com/search?q=topic%3Afapesp-2022-11560-6&type=repositories).
 
 ## Como citar e agradecer
 
