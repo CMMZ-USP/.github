@@ -22,13 +22,13 @@ Os repositórios são **privados por enquanto**: só membros da organização os
 
 ## Como usar o centro
 
-1. **Solicite acesso** pelo formulário indicado em
+1. **Solicite acesso** pelo [formulário](https://docs.google.com/forms/d/e/1FAIpQLSefMQvu24YQrR-PTWXH9AMAR1RfcxlSHfgJ0pmYgqW_oFsoNw/viewform). As normas estão em
    [Uso multiusuário](https://github.com/CMMZ-USP/normas-e-procedimentos/blob/main/USO-MULTIUSUARIO.md).
 2. **As gestoras aprovam** a proposta e combinam os custos de insumos e
    sequenciamento caso a caso.
 3. **Faça o treinamento** antes do primeiro uso. Depois dele você entra no
    time *Usuários CMMZ* do GitHub e na agenda do laboratório.
-4. **Reserve** bancada e equipamentos na agenda Google do laboratório.
+4. **Reserve** bancada e equipamentos na agenda de uso do Lab Biomol (planilha Google, por manhã/tarde).
 5. **Solicite às gestoras a alíquota de kit** para cada placa. Kits,
    alíquotas e estoque são manuseados só pelas gestoras; avise quando algo
    estiver acabando.
@@ -36,7 +36,7 @@ Os repositórios são **privados por enquanto**: só membros da organização os
 7. **Informe a produção** (artigos, teses, dados) com a issue
    "Registrar produção que usou o CMMZ" e cite o processo FAPESP.
 
-Gestoras: Gabriela P. Camacho ([PREENCHER e-mail]) e Joyce Prado ([PREENCHER e-mail]).
+Gestoras: Gabriela P. Camacho (gpcamacho@usp.br) e Joyce Prado (joyce.prado@usp.br).
 
 ## Como contribuir
 
@@ -48,7 +48,7 @@ Nos protocolos, edite só o `.md`; o PDF é gerado pela automação.
 
 | Processo | Agência / Modalidade | Título | Vigência |
 |---|---|---|---|
-| 2022/11560-6 | FAPESP — Equipamentos Multiusuários (EMU) | Aquisição de equipamentos de genômica para sequenciamento de nova geração — Explorando DNA histórico em museus: um centro de museômica para expandir o valor das coleções biológicas e promover a descoberta da biodiversidade | [PREENCHER] |
+| 2022/11560-6 | FAPESP — Equipamentos Multiusuários (EMU) | Aquisição de equipamentos de genômica para sequenciamento de nova geração — Explorando DNA histórico em museus: um centro de museômica para expandir o valor das coleções biológicas e promover a descoberta da biodiversidade | até 31/05/2027 |
 
 Registro completo de financiamentos e da produção associada:
 [FINANCIAMENTO.md](https://github.com/CMMZ-USP/.github/blob/main/FINANCIAMENTO.md) ·
